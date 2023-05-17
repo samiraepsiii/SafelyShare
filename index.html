@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Page d'accueil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #f0f2f5;
+    }
+    .blocbody{
+        padding-top: 150px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #dddfe2;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .left-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #f0f2f5;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .right-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .description {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .description p {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .login-form, .signup-form {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #dddfe2;
+      border-radius: 4px;
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #BF8D39;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0e63ac;
+    }
+
+    a {
+      display: block;
+      text-align: center;
+      color: #1877f2;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <div class="blocbody"></div>
+    <div class="container">
+      <div class="col-lg-6 col-md-12 left-section">
+        <div class="logo">
+          <img src="C:\Users\gueye_s\Downloads\psychologieappenvrai\Gold_Luxury_Business_Logo-removebg-preview.png" alt="Logo de votre application">
+        </div>
+        <div class="description">
+          <p>Libérez-vous en toute quiétude, dans le respect total de votre anonymat</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 right-section">
+        <h1>Bienvenue</h1>
+        <div class="login-form">
+          <h2>Connexion</h2>
+          <form>
+            <input type="text" placeholder="Pseudonyme">
+            <input type="password" placeholder="Mot de passe">
+            <button type="submit">Se connecter</button>
+          </form>
+          <a href="#">Mot de passe oublié?</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
